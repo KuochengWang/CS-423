@@ -1,0 +1,21 @@
+setfattr -n security.mp4 -v target /usr/bin/passwd
+setfattr -n security.mp4 -v dir /home
+setfattr -n security.mp4 -v dir /home/kuo
+
+sudo setfattr -n security.mp4 -v dir-write /etc
+setfattr -n security.mp4 -v read-only /etc/ld.so.cache
+setfattr -n security.mp4 -v read-only /etc/passwd
+setfattr -n security.mp4 -v dir /etc/pam.d
+setfattr -n security.mp4 -v read-only /etc/pam.d/passwd
+setfattr -n security.mp4 -v read-only /etc/pam.d/common-password
+setfattr -n security.mp4 -v read-only /etc/localtime
+setfattr -n security.mp4 -v read-only /etc/pam.d/other
+setfattr -n security.mp4 -v read-only /etc/pam.d/common-auth
+setfattr -n security.mp4 -v read-only /etc/pam.d/common-password
+setfattr -n security.mp4 -v read-only /etc/pam.d/common-session
+setfattr -n security.mp4 -v read-only /etc/passwd
+setfattr -n security.mp4 -v read-only /etc/login.defs
+setfattr -n security.mp4 -v read-only /etc/hosts
+setfattr -n security.mp4 -v dir /etc/gss/mech.d
+setfattr -n security.mp4 -v read-only /etc/hosts
+setfattr -n security.mp4 -v read-only /etc/pam.d/common-account

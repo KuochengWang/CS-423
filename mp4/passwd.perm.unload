@@ -1,0 +1,21 @@
+setfattr -x security.mp4 /bin/cat
+setfattr -x security.mp4 dir /home
+setfattr -x security.mp4 dir /home/kuo
+
+setfattr -x security.mp4 /etc
+setfattr -x security.mp4 /etc/ld.so.cache
+setfattr -x security.mp4 /etc/passwd
+setfattr -x security.mp4 /etc/pam.d
+setfattr -x security.mp4 /etc/pam.d/passwd
+setfattr -x security.mp4 /etc/pam.d/common-password
+setfattr -x security.mp4 /etc/localtime
+setfattr -x security.mp4 /etc/pam.d/other
+setfattr -x security.mp4 /etc/pam.d/common-auth
+setfattr -x security.mp4 /etc/pam.d/common-password
+setfattr -x security.mp4 /etc/pam.d/common-session
+setfattr -x security.mp4 /etc/passwd
+setfattr -x security.mp4 /etc/login.defs
+setfattr -x security.mp4 /etc/hosts
+setfattr -x security.mp4 /etc/gss/mech.d
+setfattr -x security.mp4 /etc/hosts
+setfattr -x security.mp4 /etc/pam.d/common-account

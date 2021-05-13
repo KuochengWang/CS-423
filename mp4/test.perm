@@ -1,0 +1,4 @@
+setfattr -n security.mp4 -v target /bin/cat
+setfattr -n security.mp4 -v dir /home
+setfattr -n security.mp4 -v dir /home/kwang62
+setfattr -n security.mp4 -v read-only /home/kwang62/file.txt
